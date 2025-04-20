@@ -16,7 +16,7 @@
 //14. 인원 수 제한
 
 //chat Backend URL
-CHAT_SERVER_URL = "https://gptchaterver-f2e656ee43a0.herokuapp.com/";
+CHAT_SERVER_URL = "https://gpt-chat-back-end-dd16e6365829.herokuapp.com";
 
 //get userInput Message
 const userInput = document.getElementById("userMessage");
