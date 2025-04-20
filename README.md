@@ -1,1 +1,2 @@
-# GPT_chat_front_end
+# gptChatAppClient
+Login ChattingApp Client
