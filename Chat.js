@@ -36,7 +36,12 @@ userInput.addEventListener("keydown", messageEnter);
 
 //Change URL for Chatting Server
 const socket = io(CHAT_SERVER_URL);
-
+window.onload = async function(){
+  if(await checkAuthAndRedirect() == false){ //if NOT LOG IN
+    //Redirect to login.html
+     window.location.href = ‘https://anonymousportal.com/ogin.html';
+  }
+}
 function messageEnter(event) {
   if (event.key == "Enter") {
     console.log("Enter button pressed.");
