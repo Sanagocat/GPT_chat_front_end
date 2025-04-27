@@ -39,7 +39,7 @@ const socket = io(CHAT_SERVER_URL);
 window.onload = async function(){
   if(await checkAuthAndRedirect() == false){ //if NOT LOG IN
     //Redirect to login.html
-     window.location.href = ‘https://anonymousportal.com/ogin.html';
+     window.location.href = ‘https://anonymousportal.com/login.html';
   }
 }
 function messageEnter(event) {
