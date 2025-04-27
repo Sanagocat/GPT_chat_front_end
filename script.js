@@ -3,7 +3,7 @@ const profileNum = document.getElementById("profileNum");
 window.onload = async function(){
   if(await checkAuthAndRedirect() == false){ //if NOT LOG IN
     //Redirect to login.html
-     window.location.href = ‘https://anonymousportal.com/ogin.html';
+     window.location.href = ‘https://anonymousportal.com/login.html';
   }
 }
 function startChat(){
