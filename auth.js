@@ -35,5 +35,5 @@ async function checkAuthAndRedirect() {
 
 function redirectToLogin() {
     alert("로그인이 필요합니다.");
-    window.location.href = "/login.html";
+    window.location.href = "https://anonymousportal.com/login.html";
 }
